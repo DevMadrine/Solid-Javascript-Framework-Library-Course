@@ -3,7 +3,7 @@ export default function EventHandling() {
     <div>
       //delegated events, not case sensitive
       <button onClick={() => alert("Button clicked!")}>Click Me</button>
-      <button onclick={(e) => console.log("Event object:", e)}>Log Event</button>
+      <button onclick={() => alert("Event object")}>Log Event</button>
     </div>
   )
 }
