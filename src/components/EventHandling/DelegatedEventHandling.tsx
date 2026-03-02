@@ -1,4 +1,4 @@
-export default function EventHandling() {
+export default function DelegatedEventHandling() {
   return(
     <div>
       //delegated events, not case sensitive
