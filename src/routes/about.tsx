@@ -1,5 +1,8 @@
 import { Title } from "@solidjs/meta";
 import ClassListStyling from "~/components/ClassListStyling";
+import DelegatedEventHandling from "~/components/EventHandling/DelegatedEventHandling";
+import DynamicEventHandling from "~/components/EventHandling/DynamicEventHandling";
+import NativeEventHandling from "~/components/EventHandling/NativeEventHandling";
 import { ThemedButton } from "~/components/ThemedButton";
 
 export default function About() {
@@ -7,6 +10,9 @@ export default function About() {
     <main>
       <ThemedButton/>
       <ClassListStyling/>
+      <DelegatedEventHandling/>
+      <NativeEventHandling/>
+      <DynamicEventHandling/>
     </main>
   );
 }
