@@ -16,6 +16,7 @@ export default function About() {
       <NativeEventHandling/>
       <DynamicEventHandling/>
       <SplitProps firstName="Drinah" lastName="Smith" age={30} city="New York"/>
+      
 
       <MergeProps name="Drinah"/>
     </main>
